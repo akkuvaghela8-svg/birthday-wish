@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    font-family: Arial;
+}
+
+.box {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    color: #ff4081;
+}
+
+.blink {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0.5; }
+}
+.love {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.8;
+}
+
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background: #ff4081;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
