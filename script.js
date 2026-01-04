@@ -4,8 +4,15 @@ function openGift() {
 
     document.getElementById("bgMusic").play();
 }
- function celebrate() {
+
+// Celebrate button click event
+document.getElementById("celebrateBtn").addEventListener("click", function() {
+    // Final page open in same tab
     window.location.href = "final.html";
-}
+
+    // Agar new tab ma open karvu hoi:
+    // window.open("final.html", "_blank");
+});
+
 
 
